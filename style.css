@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Jun, 2020, 11:38:51 AM
+    Author     : SUSHANT
+*/
+
+body{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+a{
+ text-decoration: none;
+ background-color: transparent;
+ color:#ededed;
+}
+header{
+    background-color:#000;
+ color:#fff;
+ padding:25px;
+ border-color: #080808;
+ min-height: 50px;
+ border: 1px solid transparent;
+}
+
+
+.inner-header{
+    width:80%;
+ margin:auto;
+}
+.logo{float: left;
+ height: 50px;
+ padding: 15px;
+ font-size: 40px;
+ font-weight: bold;
+}
+nav{
+    margin-top:5px;
+    margin-bottom:5px;
+    float:right;
+ height: 50px;
+ padding: 15px 15px;
+ font-size:16px;
+ font-weight: bold;
+
+}
+nav a{
+    padding: 15px 15px;
+ font-size:16px;
+ font-weight: bold;
+}
+main{
+    min-height: 600px;
+}
+.banner-image{
+    padding-bottom: 50px;
+ margin-bottom: 20px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url('intro-bg-1.jpg') no-repeat center;
+ background-size: cover;
+ align-items: center;
+}
+.inner-banner-image{
+    padding-top: 12%;
+ width:80%;
+ 
+ margin-left:auto;
+ margin-right: auto;
+}
+.banner-content{
+    
+    position: relative;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ overflow:hidden;
+ margin-bottom: 12%;
+ background-color: rgba(0, 0, 0, 0.7);
+ /*max-width: 660px;*/
+}
+
+#Register{
+    display: none;
+}
+
+#ShowRegistrations{
+    display:none;
+}
+.box{
+    padding-top:50px;
+    padding-bottom: 50px;
+ margin-bottom: 20px;
+ /*text-align: center;*/
+ background: url('intro-bg-1.jpg') no-repeat center;
+ background-size: cover;
+ min-height: 500px;
+ 
+ align-items: center;
+}
+#regdata{
+    display: none;
+}
+
+.inner-box{
+    padding: 5%;
+ width: 80%;
+ 
+ margin-left:auto;
+ margin-right: auto;
+ position: relative;
+ 
+ overflow:hidden;
+ 
+ background-color: rgba(250, 219, 216 , 0.9);
+}
+.inner-box h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+fieldset{
+    font-size:25px;
+    border: 2px dashed red; 
+    border-radius: 8px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"]{
+    margin-left: 60px;
+    padding:7px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+  border-radius: 4px;
+  width: 300px;
+}
+input[type="checkbox"]
+{
+     margin-left: 60px;
+    padding:7px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+  border-radius: 4px;
+  font-weight: normal;
+}
+time{
+    border: 2px solid red;
+  border-radius: 4px;
+}
+textArea{
+    border: 2px solid red;
+  border-radius: 4px;
+  margin-left: 60px;
+    padding:7px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+input[type=text]:focus {
+  background-color: #D8FAF2 ;
+  outline:none;
+}
+
+select{
+  border: 2px solid red;
+  border-radius: 4px;
+  margin-left: 60px;
+    padding:7px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  width: 200px;
+}
+select:focus{
+    background-color: #D8FAF2 ;
+    outline:none;
+}
+#Home h1{
+    font-size:40px;
+}
+#Home p{
+    font-size: 25px;
+}
+input[type="button"]
+{
+    background-color: #D8FAF2;
+  border: 2px solid red;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.intro{
+    color: red;
+}
+
+button{
+    border: 1px solid white;
+    padding:5px;
+    font-size:20px;
+    
+    border-radius:4px;
+    background-color: #F4F6F7;
+}
+#HomeButton{
+    background-color: #BDC3C7;
+}
+form span
+{
+    color: red;
+    font-size:15px;
+    margin-left:30px;
+}
+footer{
+    background-color: #000;
+ color:#fff;
+ font-size:14px;
+ height:40px;
+}
+
+input[type="date"]{
+    margin-left: 60px;
+    padding:7px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+table{
+    caption-side: top;
+    table-layout: fixed;
+    border-collapse: separate;
+    
+    border-style: inset;
+    empty-cells: show;
+    padding:15px;
+    border-width: 5px;
+}
+caption{
+    font-size:25px;
+    font-weight:bolder;
+}
+td,th{
+     border-style: solid;
+     padding: 10px;
+     border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
